@@ -86,6 +86,26 @@ Select your role: *Customer* or *Vendor*
 
 ##  Project Structure
 
+src/
+├── components/
+│ ├── OnboardingScreen.tsx
+│ ├── CustomerLoginScreen.tsx
+│ ├── VendorLoginScreen.tsx
+│ ├── CustomerView.tsx
+│ ├── VendorView.tsx
+│ ├── icons.tsx
+│
+├── context/
+│ └── AppContext.tsx // main global state
+│
+├── types/
+│ └── index.ts // Order, UserRole, Restaurant model types
+│
+├── assets/
+│ └── images
+│
+└── main.tsx / App.tsx
+
 
 
 1. Install dependencies:
