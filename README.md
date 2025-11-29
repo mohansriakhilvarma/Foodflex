@@ -107,13 +107,13 @@ foodflex/
 │   │   └── index.ts
 │   │
 │   ├── App.tsx
-│   ├── main.tsx
-│   └── styles.css (if present)
+│   └── main.tsx
 │
 ├── package.json
 ├── tsconfig.json
 ├── vite.config.ts
 └── README.md
+
 
 
 
