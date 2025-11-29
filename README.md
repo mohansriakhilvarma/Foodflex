@@ -86,25 +86,34 @@ Select your role: *Customer* or *Vendor*
 
 ##  Project Structure
 
-src/
-├── components/
-│ ├── OnboardingScreen.tsx
-│ ├── CustomerLoginScreen.tsx
-│ ├── VendorLoginScreen.tsx
-│ ├── CustomerView.tsx
-│ ├── VendorView.tsx
-│ ├── icons.tsx
+foodflex/
+├── public/
+│   └── assets/
+│       └── images/
 │
-├── context/
-│ └── AppContext.tsx // main global state
+├── src/
+│   ├── components/
+│   │   ├── OnboardingScreen.tsx
+│   │   ├── CustomerLoginScreen.tsx
+│   │   ├── VendorLoginScreen.tsx
+│   │   ├── CustomerView.tsx
+│   │   ├── VendorView.tsx
+│   │   └── icons.tsx
+│   │
+│   ├── context/
+│   │   └── AppContext.tsx
+│   │
+│   ├── types/
+│   │   └── index.ts
+│   │
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── styles.css (if present)
 │
-├── types/
-│ └── index.ts // Order, UserRole, Restaurant model types
-│
-├── assets/
-│ └── images
-│
-└── main.tsx / App.tsx
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
 
 
 
